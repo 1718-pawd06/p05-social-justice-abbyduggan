@@ -1,0 +1,48 @@
+/*
+* Abby Duggan
+* 5/3/18
+* Food and Water Watch
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+header {
+	text-align: center;
+	background-color: aqua;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+	border: 2px dotted blue;
+	font-size: 25px; 
+	}
+
+body { 
+	font-family: "Helvetica", sans-serif;
+    background-color: white;
+    color: black; 
+}
+.first-image {
+	float: left;
+	width: 300px;
+	border: 2px dotted blue; 
+	margin: 10px 15px 10px 10px;
+	padding: 5px;
+	}
+	
+.second-image {
+  	float: center;
+  	width: 300px;
+  	border: 2px dotted blue;
+  	margin: 10px 15px 10px 10px;
+  	padding: 5px;
+  	}
+  	
+footer {
+border-top: 2px solid blue;
+}
